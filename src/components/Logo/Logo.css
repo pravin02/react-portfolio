@@ -1,0 +1,12 @@
+.arlo_tm_leftpart .inner .logo {
+    float: left;
+}
+
+.arlo_tm_leftpart .inner .logo .light {
+    display: none;
+}
+
+.arlo_tm_leftpart .inner .logo img {
+    max-width: 200px;
+    max-height: 200px;
+}

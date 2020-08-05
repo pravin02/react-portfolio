@@ -1,0 +1,105 @@
+/*---------------------------------------------------*/
+/*	13) ARLO CONTACT
+/*---------------------------------------------------*/
+
+.arlo_tm_contact{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #f9f9f9;
+	padding: 140px 0px 150px 0px;
+}
+.arlo_tm_contact .contact_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 90px;
+}
+.arlo_tm_contact .short_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.arlo_tm_contact .short_list ul{
+	margin: 0px 0px 0px -50px;
+	list-style-type: none;
+}
+.arlo_tm_contact .short_list ul li{
+	margin: 0px 0px 50px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 50px;
+}
+.arlo_tm_contact .short_list ul li .svg{
+	width: 25px;
+	height: 25px;
+	color: #ff214f;
+	margin-bottom: 9px;
+}
+.arlo_tm_contact .short_list ul li h3{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.arlo_tm_contact .short_list ul li p{font-weight: 500;}
+.arlo_tm_contact .fields{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.arlo_tm_contact .fields .first{
+	width: 100%;
+	float: left;
+}
+.arlo_tm_contact .fields ul{
+	margin: 0px 0px 0px -30px;
+	list-style-type: none;
+}
+.arlo_tm_contact .fields ul li{
+	width: 50%;
+	margin: 0px 0px 30px 0px;
+	padding-left: 30px;
+	float: left;
+}
+.arlo_tm_contact .fields ul li input{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,.2);
+	background-color: #fff;
+}
+.arlo_tm_contact .fields ul li input:focus{
+	outline: none;
+	border: 1px solid rgba(0,0,0,.5);
+}
+.arlo_tm_contact .fields .last textarea{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,.2);
+	height: 120px;
+	resize: none;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+.arlo_tm_contact .fields .last textarea:focus{
+	outline: none;
+	border: 1px solid rgba(0,0,0,.5);
+} 
+.arlo_tm_contact .empty_notice{
+	color: #F52225;
+	margin-bottom: 7px;
+	display: none;
+	text-align: left;
+	font-weight: 500;
+}
+.arlo_tm_contact .contact_error{
+	color: #F52225;
+	text-align: left;
+	font-weight: 500;
+}
+.arlo_tm_contact .returnmessage{
+	color:#3A00FF;
+	margin-bottom: 7px;
+	text-align: left;
+	font-weight: 500;
+}

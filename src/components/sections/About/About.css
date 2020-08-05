@@ -1,0 +1,177 @@
+/*---------------------------------------------------*/
+/*	06) ARLO ABOUT
+/*---------------------------------------------------*/
+
+.arlo_tm_about_wrap_all{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 138px;
+}
+.arlo_tm_about{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 145px;
+}
+.arlo_tm_about .about_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: flex;
+	padding-top: 100px;
+}
+.arlo_tm_about .leftbox{
+	width: 35%;
+	float: left;
+	height: auto;
+}
+.arlo_tm_about .leftbox .about_image_wrap{position: relative;}
+.arlo_tm_about .leftbox .about_image_wrap .image{
+	position: absolute;
+	z-index: 2;
+}
+.arlo_tm_about .leftbox .about_image_wrap .image .inner{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.arlo_tm_about .leftbox .about_image_wrap .border .inner{
+	position: absolute;
+	top: 25px !important;
+	bottom: -25px !important;
+	left: 25px !important;
+	right: -25px !important;
+	border: 10px solid #000;
+}
+.arlo_tm_about .leftbox .about_image_wrap img{opacity: 0;}
+.arlo_tm_about .rightbox{
+	width: 65%;
+	height: auto;
+	padding-left: 70px;
+}
+.arlo_tm_about .rightbox .about_title{margin-bottom: 30px;}
+.arlo_tm_about .rightbox .about_title h3{font-size: 20px;}
+.arlo_tm_about .rightbox .about_title h3 .arlo_tm_animation_text_word{color: #ff214f;}
+.arlo_tm_about .rightbox .text{
+	margin-bottom: 23px;
+	float: left;
+}
+.arlo_tm_about .rightbox .text span{
+	color: #ff214f;
+	font-style: italic;
+}
+.arlo_tm_about .about_short_contact_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 19px;
+}
+.arlo_tm_about .arlo_tm_main_title_holder{margin-bottom: 40px;}
+.arlo_tm_about .about_short_contact_wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.arlo_tm_about .about_short_contact_wrap ul li{
+	margin: 0px 0px 10px 0px;
+	width: 50%;
+	float: left;
+	position: relative;
+	padding-left: 30px;
+}
+.arlo_tm_about .about_short_contact_wrap ul li:nth-of-type(2n){clear: right;}
+.arlo_tm_about ul li label{
+	font-weight: 500;
+	color: #000;
+	min-width: 85px;
+	display: inline-block;
+}
+.arlo_tm_about .about_short_contact_wrap ul li a{
+	text-decoration: none;
+	color: #000;
+    position: relative;
+	border-bottom: 1px solid transparent;
+	
+    -webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.arlo_tm_about .about_short_contact_wrap ul li a:hover{border-bottom-color: #000;}
+.arlo_tm_about .about_short_contact_wrap ul li .svg{
+	position: absolute;
+	left: 0px;
+	top: 6px;
+	width: 17px;
+	height: 17px;
+	color: #ff214f;
+}
+.arlo_tm_about .buttons{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.arlo_tm_about .buttons ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.arlo_tm_about .buttons ul li{
+	margin: 0px 15px 20px 0px;
+	display: inline-block;
+}
+.arlo_tm_about .buttons ul li a{
+	text-decoration: none;
+	color: #fff;
+	background-color: #ff214f;
+	display: inline-block;
+	padding: 10px 45px;
+	font-family: "Montserrat";
+	position: relative;
+	overflow: hidden;
+}
+.arlo_tm_about .buttons ul li a:before{
+	position: absolute;
+    content: "";
+    top: 0px;
+    height: 100%;
+    left: -25%;
+    width: 0%;
+    background-color: #000;
+    transform: skew(50deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+.arlo_tm_about .buttons ul li a:hover:before{width: 150%;}
+.arlo_tm_about .buttons ul li span{
+	z-index: 2;
+	position: relative;
+}
+.arlo_title_holder{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.arlo_title_holder h3{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 35px;
+}
+.arlo_title_holder span{
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ff214f;
+	font-weight: 500;
+}
